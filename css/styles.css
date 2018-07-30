@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     position: relative;
     font-family:'PT Mono', monospace;
@@ -7,6 +8,11 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Playfair Display', serif;
 }
 
+.text-white {
+    color:#ffffff;
+}
+
+/* Navbar */
 .navbar-brand {
     padding:10px;
 }
@@ -17,6 +23,7 @@ h1,h2,h3,h4,h5,h6 {
     margin:0;
 }
 
+/* Home Section */
 #home-section {
     height:100vh;
     display: flex;
@@ -28,15 +35,13 @@ h1,h2,h3,h4,h5,h6 {
     background-attachment: fixed;
 }
 
-#home-section h1, #home-section p {
-    color:#ffffff;
-}
-
+/* Menu Section */
 .menu-section {
     padding-top:60px;
     padding-bottom:60px;
 }
 
+/* Reservation Section */
 #reservation-section {
     background: #eeeeee;
 }
@@ -51,8 +56,17 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom:60px;
 }
 
+/* Small Screens */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Screens */
 @media only screen and (min-width : 992px) {
     #home-section {
-        max-height:900px;
+        max-height:700px;
     }
+}
+
+/* Large Screens */
+@media only screen and (min-width : 1200px) {
 }
