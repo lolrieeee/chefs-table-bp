@@ -71,7 +71,7 @@
 
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane active" id="menu-appetizers">
+                            <div role="tabpanel" class="tab-pane active fade in" id="menu-appetizers">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul>
@@ -87,7 +87,7 @@
                                 </div><!-- /.row -->
                             </div><!-- /#menu-appetizers -->
 
-                            <div role="tabpanel" class="tab-pane" id="menu-entrees">
+                            <div role="tabpanel" class="tab-pane fade" id="menu-entrees">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul>
@@ -103,7 +103,7 @@
                                 </div> <!-- /.row -->
                             </div><!-- /#menu-entrees -->
 
-                            <div role="tabpanel" class="tab-pane" id="menu-desserts">
+                            <div role="tabpanel" class="tab-pane fade" id="menu-desserts">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul>
@@ -119,7 +119,7 @@
                                 </div>
                             </div><!-- /#menu-desserts -->
 
-                            <div role="tabpanel" class="tab-pane" id="menu-cocktails">
+                            <div role="tabpanel" class="tab-pane fade" id="menu-cocktails">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul>
@@ -147,11 +147,15 @@
                 <div class="col-sm-12">
                     <h2>Make a reservation</h2>
                     <form>
-                        First name:<br>
-                        <input type="text" name="firstname"><br>
-                        Last name:<br>
-                        <input type="text" name="lastname"><br>
-                        <button type="submit">Submit</button>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">First name:</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First name">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Last name:</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last name">
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
                     </form>
                     <p>
                       <i class="fab fa-facebook-square"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i>
